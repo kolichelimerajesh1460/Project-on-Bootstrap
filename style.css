@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.navbar-brand{
+    font-size:2.5rem;
+    color: black;
+    font-family: "Merriweather", serif;
+    font-weight: 500;
+    font-style: italic;
+    margin: 0px;
+}
+.nav-link{
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+    margin-left: 0px;
+    color:black;
+    text-transform: uppercase;
+    font: bold;
+    align-items: center;
+}
+.nav-link:hover{
+    background-color:black;
+    border: 1px solid red;
+    color: white;
+    border-radius:20px;
+}
+.search{
+    height: 40px;
+    border-radius:20px;
+    outline: none;
+    border: 2px solid red;
+    font-size: bold;
+    margin-left:0%;
+}
+.btn1{
+   height:40px;
+   width:70px;
+   outline: none;
+   border: none;
+   background-color: red;
+   color: white;
+   font-weight: 700; 
+   border-radius: 20px;
+   cursor: pointer;
+   margin-left:5px;
+}   
+.btn1:hover{
+    background-color: black;
+}
+.carousel-inner{
+font-family: "Coiny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.carousel-inner h1{ 
+    margin: 350px;
+    color: black;
+}
+.card{
+    width: 80%;
+    margin-left: 20px;
+    font-family: "Libre Baskerville", serif;
+    padding: 10px;
+    border-radius:20px;
+}
+#text{
+text-align: center;
+padding: 15px;
+font-family: "Coiny", system-ui;
+margin-top: 10px;
+}
+.btn{
+    align-items: center;
+    margin-left: 30%;
+    border: 2px solid red;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+.card:hover{
+    background-color:lightblue;
+    color:black;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+.container-product{
+    width: 600px;
+    border: 2px solid red;
+    max-width: 100px;
+}
+.conatiner-spl{
+    border: 3px solid red;
+}
+.black{
+    padding:20px;
+    border: 2px solid red;
+    background-color: lightsteelblue;
+    margin: 20px;
+    height: 50%;
+}
+#spl{
+    text-align:center;
+    color:black;
+    margin-top:0px;
+    font-family: "Coiny", system-ui;
+}
+.Aboutus{
+     height: 100%;
+     background-image: url(./945731-3840x2160-desktop-4k-matte-black-wallpaper-image.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 0px;
+     margin: 1%;
+    } 
+.container span{
+    color: red;
+}  
+.box{
+    /* background-image: url(./800_3738169_i629639408fgoog6t33rfsvyvfkv04abfyjd8b4p.jpg); */
+    /* background-color: green; */
+    width: 100%;
+    /* border: 2px solid red; */
+    height: 20%;
+    color: white;
+}
+#contact{
+    /* text-align: center; */
+    padding-left: 2%;
+}
+#code{
+    text-align: center;
+    padding: 15px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1%;
+}
